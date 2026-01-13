@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .lato-font {
-  font-family: "Lato", sans-serif;
-  font-style: normal;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
 }
 
 * {
@@ -58,4 +58,89 @@ header {
     line-height: 30px;
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 32px;
+}
+
+main>section {
+    margin-bottom: 130px;
+}
+
+
+/* main */
+
+/* section one */
+
+.one-container {
+    max-width: 1440px;
+    margin: 130px 240px 0;
+    text-align: center;
+}
+
+.texts-one h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.texts-one p {
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 48px;
+}
+
+.img-container-one {
+    justify-content: center;
+    gap: 24px;
+}
+
+.img1-one,
+.img2-one,
+.img3-one {
+    padding: 110px 80px 0 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    margin-bottom: 32px;
+}
+
+.img2-one {
+    padding-bottom: 60px;
+}
+
+.img3-one {
+    padding-top: 70px;
+}
+
+.img1-one {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.img2-one {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.img3-one {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(39, 39, 39, 1);
+}
+
+
+
+.two-container {
+    max-width: 1440px;
+    padding: 88px 175px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+}
+
+.features {
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
