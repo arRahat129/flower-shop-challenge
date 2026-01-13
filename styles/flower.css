@@ -137,10 +137,51 @@ main>section {
     padding: 88px 175px;
     background-color: rgba(39, 39, 39, 0.05);
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .features {
     justify-content: center;
     align-items: center;
     gap: 100px;
+}
+
+.features div {
+    text-align: center;
+}
+
+.features p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+
+.three-container {
+    max-width: 1922px;
+    padding: 230px 390px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+
+.offer-details {
+    text-align: center;
+}
+
+.off-heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.off-details {
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
 }
