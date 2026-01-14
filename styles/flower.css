@@ -60,7 +60,7 @@ header {
     margin-bottom: 32px;
 }
 
-main>section {
+main > section {
     margin-bottom: 130px;
 }
 
@@ -71,7 +71,7 @@ main>section {
 
 .one-container {
     max-width: 1440px;
-    margin: 130px 240px 0;
+    margin: 130px auto 0;
     text-align: center;
 }
 
@@ -128,6 +128,7 @@ main>section {
     font-weight: 600;
     line-height: 35px;
     color: rgba(39, 39, 39, 1);
+    text-decoration: underline;
 }
 
 
@@ -184,4 +185,54 @@ main>section {
     line-height: 30px;
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 32px;
+}
+
+
+.container-four {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-four .part1 {
+    max-width: 594px;
+    text-align: center;
+    padding-right: 420px;
+    padding-left: 420px; 
+    margin-bottom: 48px;
+}
+
+.h3-four {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+.p-four {
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: #272727;
+}
+
+.container-four .part2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+
+.container-five {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 280px;
+    text-align: center;
+    background: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    
+}
+
+.container-five-assets {
+    padding: 120px 280px;
+    text-align: center;
+    
 }
